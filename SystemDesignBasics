@@ -3,3 +3,32 @@ What is System design?
  -> System design is the process of designing the architecture, components and interfaces for a system so that it meets end user requirements. It is important for anyone who wants to build robust,
 scalable and efficient software application.
  -> Whether you are building smal-scale application or larger one, understanding system requirements help you to architect the solution that can handle real world complexities.
+
+Steps for getting started with System design:
+
+1. Understand the requirements
+2. Design the system architecture.
+3. Choose the technology.
+4. design the modules.
+5. Plan for scalability
+6. Test and validate.
+
+Understanding the requirements
+
+->  Gather and analyze the business need of the requirements. Work with stakeholders and documents the requirements clearly.
+This helps avoid mistakes later in development. Fo eg : user login, online payment, order placement.
+
+Design the system architecture:
+
+-> overall structure of the system is defined. It involves apis, services,and database. high level view of the system. For eg:
+Order service, payment service, checkout service.
+
+Choose technology
+
+-> This includes programming languages, databases, frameworks and tools that fits for the requirements. For eg : React for frontend,
+Node js for backend, MongoDB for database.
+
+Design Modules
+
+-> The system is divided into modules or componenets each with a specific responsibility.
+
