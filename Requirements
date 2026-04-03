@@ -1,1 +1,12 @@
+Functional and Non functional requirements
 
+Requirement analysis is a crucial step in software development where the needs and expectations of users and stakeholders are identified
+and documented. It ensures that the system being built will meet its intended goals and correct functionality.
+Based on the requirements it is of two types:
+1. Functional Requirments (defines What the system should perform)
+2. Non Functional Requirements ( defines how the system should perform)
+
+Functional Requirements :
+
+-> It defines the specific features and operatios a system must perform to meet business and user needs.
+-> They describe what the system do and how it interacts 
