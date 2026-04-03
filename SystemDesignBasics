@@ -49,4 +49,36 @@ functional requirements.
 
 Complex process invloves careful planning and attention in detail.
 
+Tips and tricks to solve a system design problem:
+=====================================================
+
+When solving a system design problem, it is important to follow a structured approach. System design may seem complex at first, but breaking them
+into smaller steps makes them easier to handle. Also remember that there is more than one valid solution.
+
+1. Clarify the requirements -> Start asking questions to fully understand the problem including functional and non functi
+onal REquirements. SO we can avoid incorrect assumptions.
+2. Start with a high level design -> Draw the simple architecture showing the main components such as clients, servers, api and databases
+This gives a clear overview before going into details.
+3. Break the system into Components -> Divide the system into smaller services or modules and define their responsibilities and 
+interactions. This maskes the system easy to design and scale.
+4. Consider scalability and performance -> Think about how the system will handle large traffic by using techniques like load balancing,
+caching and database sharding.
+5. Discuss trade offs -> Explain why you choose certain technology or design and what trade off it involves cost vs performance vs simplicity
+vs scalability.
+
+Approaching a design problem:
+==============================
+
+1. Breaking down the problem ->when you are given a system design problem, start breaking them into components or services
+which you need to implement in system. Initially, a system design to be designed can have a large number of features and you are not
+expected to design all of them. ask the interviewer about the features that you are planning to put and is there anythign else.
+
+2. Communicate your ideas -> while designing the system keep him/her in the loop, discuss the ideas loud. Try to demonstrate your
+system design ideas with flowcharts and diagrams. Explain how you tackle scalability and how you will you design database.
+
+3. Asssumptions that make sense -> make some reasonable assumptions while designing teh system.
+
+Note : Sometimes you have to assume the number of requests the system will be processed per day , the number of database calls made in
+a month, or the efficiency rate of the caching system. These are some of the numbers that you need to assume while designing.
+Try to keep these numbers as reasonable as possible. Assumptions based on some solid facts and figures.
 
