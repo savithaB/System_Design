@@ -1,7 +1,7 @@
 High Level Design
 
 -> High level design or HLD is an intial step in the development of applications in which the overall structure of the system 
-is planned. Mianly focuses on different components of the system work together without getting to know the internal code and 
+is planned. Mainly focuses on different components of the system work together without getting to know the internal code and 
 implementation.  
 -> Helps everyone in the project understand the requirements and ensures good communication during development.
 -> Crucial for developers, architects and product managers because it allows them to make sure that all stakeholders
