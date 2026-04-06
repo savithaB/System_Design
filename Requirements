@@ -9,4 +9,45 @@ Based on the requirements it is of two types:
 Functional Requirements :
 
 -> It defines the specific features and operatios a system must perform to meet business and user needs.
--> They describe what the system do and how it interacts 
+-> They describe what the system do and how it interacts.
+-> Focus on the behaviour and functionality of the system.
+-> Represents features that can be easily observed and tested in the final product.
+-> Examples include user authentication, data processing, payment processing and report generation.
+
+Non Functional Requirements :
+
+-> It defines how the system should operate focusing on performance, reliability and user experience rather than a specific feature.
+-> It include performance => speed and responsiveness , security => protection against unauthorized access, 
+ Reliability -> availability and system stability , Usability => ease of use, Maintainability -> easy updates and fixes,
+portability => Able to run in different environments, scalability => able to handle growth.
+
+Extended Requirements:
+
+-> Extended requirements define additional capabilities or considerations that enhance the system but not teh core functional freatures.
+-> This includes monitoring, reliability and future entension of the system such as
+
+  1. Logging  => Recording system activities and errors for debugging and analysis.
+  2. Monitoring & Alerting => Tracking system health, performance amd failures
+  3. Analytics => collect usage data to understand user behaviour and system performance
+  4. Backup & Disaster discovery => Ensuring data can be restored in case of failures.
+  5. Rate limiting => Controlling the number of requests to prevent system overload or abuse.
+  6. Feature flags / A-B Testing => Enabling controlled feature releases and experiements.
+
+Examples of functional and non functional requirements :
+
+Online Banking System
+
+1. Functional Requirements
+   -> User should withdraw money and check balance.
+   -> User should login into the account.
+   -> User should receive notifications after making a transaction.
+
+2. Non Functional Requirements
+  -> The system should respond to user in less than 2 seconds.
+  -> The system should handle 100 million requests with minimal downtime.
+  -> All transactions must be encrypted and follow industry standards.
+
+3. Extended Requirements
+   -> The system should log all transactions for auditing and fraud detection.
+   ->  The system should send alerts and notifications to detect unusual activities.
+   -> The system should have automatic backups and disaster recovery mechanisms.
