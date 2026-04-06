@@ -7,6 +7,6 @@ implementation.
 -> Crucial for developers, architects and product managers because it allows them to make sure that all stakeholders
 are align with the project objectives. Thats why it is called as Macro level design.
 
-The most common request follow most applications follow from user to data and back.     ->1.1 data stores
+The most common request flow most applications follow from user to data and back.     ->1.1 data stores
 users -> CDN/Edge -> Load balancers/API users CDN /Edge gateway -> 1.Application logic  -> 1.2 (1.3.1) Logs and metrics
                                                                   2. Identity/ access   -> 1.3 Asunc Queue & Workers 
