@@ -15,4 +15,10 @@ Components of High level design:
 ================================
 Understanding the components of high level design is inportant becauses that meets user needs and technical requirements.
 
+1. System Architecture -> System architecture is an overview of the system that represents the structure and relationship between other components.
+It helps to visually represent how different parts interact and function.
+
+2. Modeuls and components -> High level design breaks down the system into modules or components each with specific roles and reponsibilities, 
+and has distinct function that contributes to the entire system, helping in developing an efficient system.
+
 
