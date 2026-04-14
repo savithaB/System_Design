@@ -36,4 +36,13 @@ cloud infrastructure and network considerations.
 High level design document
 ==============================
 
+-> The HLD consists of data flows, flow chart and data structures to help developers to understand how the current system is 
+intentionally to design and function.
+
+-> This document is responsible for explaining the connection between system components and operations which depict the logic.
+
+-> The architecture design(for system functionality and flow)  needed for each and every module of the system 
+as per the functional requirements.
+
+
 
