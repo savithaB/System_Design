@@ -65,3 +65,5 @@ considering what the business needs and how the system work, both in terms of fu
 -> Where in case of LLD translates HLD into more specific details, includes class diagram, methods, data structures and algorithms
 focusing on how each part will be implemented.
 
+How to Design Scalable High-Level Design (HLD) Systems:
+===========================================================
