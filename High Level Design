@@ -47,7 +47,14 @@ as per the functional requirements.
 Purpose and characteristics of HLD
 ====================================
 
--> The purpose of High level design(HLD)
+-> The purpose of High level design(HLD) is to add necessary detailed description to represent a suitable model.This is designed to help with 
+operational requirements and how the modules interact. Basically, HLD is a technical representation of functional requirements and how the
+data flow across components.
+
+-> characteristics of HLD:
+1. A diagram representing each designed aspect is included in the HLD ( which is based on requirements and anticipated results).
+2. Description of hardware , software and user interfaces.
+3. The workflow of the user's typical process is detailed, along with performance specifications.
 
 
 
