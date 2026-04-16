@@ -59,3 +59,9 @@ data flow across components.
 Difference of HLD from LLD
 ===========================
 
+-> HLD is a general system design where we do tradeoffs between different components, frameworks and databases and we choose the best
+considering what the business needs and how the system work, both in terms of functional and non functional aspects.
+
+-> Where in case of LLD translates HLD into more specific details, includes class diagram, methods, data structures and algorithms
+focusing on how each part will be implemented.
+
