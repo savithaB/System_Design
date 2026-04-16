@@ -53,8 +53,9 @@ data flow across components.
 
 -> characteristics of HLD:
 1. A diagram representing each designed aspect is included in the HLD ( which is based on requirements and anticipated results).
-2. Description of hardware , software and user interfaces.
+2. Description of hardware (database, load balance, cloud servers) , software  ( frontend, backend) and user interfaces.
 3. The workflow of the user's typical process is detailed, along with performance specifications.
 
-
+Difference of HLD from LLD
+===========================
 
