@@ -1,0 +1,31 @@
+1. CAPACITY ESTIMATION
+
+=> Capacity estimation in system design is a process of predicting or determining the workload or demand that a system can
+handle within its operational paramters. This invloves analyzing various aspects such as hardware capabilities, software performance,
+network bandwidth and user behaviour pattern.
+=> The goal is to ensure that the system can accomodate the expected workload without performance degradation, 
+bottlenecks or failures.
+=> Capacity estimation is crucial for designing and scaling high systems effectively for current and future demands, 
+whether is a website, network infrastructure or any other complex systems.
+
+Steps involved in capacity estimation:
+======================================
+
+Understanding the situation -> focussing and designing -> creating -> Implementing and monitoring -> evaluating and replanning
+
+Factors affecting capacity estimation:
+=========================================
+1. Hardware resources  -> The capabilities of hardware components such memory, processor, storage device and network directly 
+impaact the systems capacity.
+2. Software efficiency  -> The efficiency of the software algorithms, data structures and overall system design affects how 
+efficiently system utilizes resources.
+3. Workload characteristics -> Understanding the nature of workload, including its intensity, variability and peak periods
+is required for accurately measuring capacity requirements.
+4. User bahaviour -> User behaviour patterns such as browsing habits, transaction volumes and concurrency influence the 
+system capacity needs.
+5. Scalability -> The systems ability to scale both vertically( adding more resources to a single node) and horizontally
+(adding more nodes to a distributed system) impacts overall capacity.
+6. Performance metrics -> defining overall performance metrics such as throughput, response time and resource utilization
+helps in quantifying the capacity requirements.
+7. Failure scenerios -> Considering potential failure scenerios such as network outages or hardware failures it is crucial
+for designing systems with adequate capacity for fault tolerance and resilient.
