@@ -29,3 +29,6 @@ system capacity needs.
 helps in quantifying the capacity requirements.
 7. Failure scenerios -> Considering potential failure scenerios such as network outages or hardware failures it is crucial
 for designing systems with adequate capacity for fault tolerance and resilient.
+
+Metrics for capacity estimation:
+
