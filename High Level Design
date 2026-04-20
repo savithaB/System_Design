@@ -68,4 +68,22 @@ focusing on how each part will be implemented.
 How to Design Scalable High-Level Design (HLD) Systems:
 ===========================================================
 
-Now in order to design any high level system, certain terms are listed in a sequential manner
+Now in order to design any high level system, certain terms are listed in a sequential manner so as to connect the dots.
+
+1. Capacity Estimation
+2. HHTP Methods
+3. Web sockets
+4. Pooling
+5. Server sent events
+6. Filtering and logging 
+7. Rate limiting
+8. Resiliency
+9. Paging and Filtering
+10. Logging 
+
+
+
+
+
+
+
