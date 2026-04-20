@@ -17,18 +17,37 @@ Factors affecting capacity estimation:
 =========================================
 1. Hardware resources  -> The capabilities of hardware components such memory, processor, storage device and network directly 
 impaact the systems capacity.
+
 2. Software efficiency  -> The efficiency of the software algorithms, data structures and overall system design affects how 
 efficiently system utilizes resources.
+
 3. Workload characteristics -> Understanding the nature of workload, including its intensity, variability and peak periods
 is required for accurately measuring capacity requirements.
+
 4. User bahaviour -> User behaviour patterns such as browsing habits, transaction volumes and concurrency influence the 
 system capacity needs.
+
 5. Scalability -> The systems ability to scale both vertically( adding more resources to a single node) and horizontally
 (adding more nodes to a distributed system) impacts overall capacity.
+
 6. Performance metrics -> defining overall performance metrics such as throughput, response time and resource utilization
 helps in quantifying the capacity requirements.
+
 7. Failure scenerios -> Considering potential failure scenerios such as network outages or hardware failures it is crucial
 for designing systems with adequate capacity for fault tolerance and resilient.
 
 Metrics for capacity estimation:
 
+1. Daily active user
+
+2. Queries per second
+
+3. Storage requirements
+
+4. Error rates
+
+5. Response time
+
+6. Concurrency
+
+7. Peak loading time
