@@ -64,5 +64,26 @@ degradation or failure.
 
 Methods and Techniques for Capacity Estimation
 ==================================================
+Various methods and techniques to accurately predict the system's ability to handle workload.
+
+1. Traffic Analysis -> This involves studying how users interact with your system - how many request sare made, at what times, and
+which features are used most. By understanding these traffic patterns, you can estimate the load your system can handle. For this analysis,
+measure key measure for this metrics are Queries/Requests per second OR Daily Active users.
+
+2. Forecasting -> It uses past traffic data to predict future trends. Helps you prepare for growth or seasonal spikes. 
+For example, an ecommerce site has spike in traffic  during holiday sales and plan extra capacity.
+
+3. Stress Testing -> This is a technique where you intentionally overload your system than the load it usually handles to find its
+breaking point. Helps identify how much traffic system handles before it fails. Reveals bottlenecks (memory or slow queries)
+that need fixing.
+
+4. Historical Data Analysis -> Analyzing historical data usage to identify patterns, trends and peak usage periods. By extrapolating
+from past trends, designers can estimate future capacity requirments more accurately.
+
+5. Load testing ->
+
+6. Capacity planning tools ->
+
+6. 
 
 
