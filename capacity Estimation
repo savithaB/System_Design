@@ -38,16 +38,28 @@ for designing systems with adequate capacity for fault tolerance and resilient.
 
 Metrics for capacity estimation:
 
-1. Daily active user
+1. Daily active user -> This represents the number of unique users who use the application in a single day. It helps you estimate 
+the overall traffic that the system need to handle daily. For example, if you have 1,00,000 daily active users, then your
+backend systems and servers must support the scale without breaking.
 
-2. Queries per second
+2. Queries per second -> This measures how many requests (queries) your system process every second. It indicate the load
+on our servers.For example, if your app handles 1000 QPS during peak hours, then your servers powerful enough to process that 
+volume without delays.
 
-3. Storage requirements
+3. Storage requirements -> This is the amount of data that your system need to store (eg: logs, messages and user profiles).
+It helps ensure databases and storage requirements have enough capacity. For example, if you app consumes daily 500 MB of data
+daily, and you need to keep data for a year, then you will need atleast 180 GB of storeage.
 
-4. Error rates
+4. Error rates -> This is the percentage of requests that fail or causes errors. It measures the reliability of the system.
+For example, if 1 out of every 1000 requests fail, the the error rate is (1/1000=0.001*100=0.1) 0.1%.
 
-5. Response time
+5. Response time -> The time taken for the system to respond to a request or complete the transaction. Lower response times are
+preferred as they indicate better system performance.
 
-6. Concurrency
+6. Concurrency -> The number of simultaneous requests or users the system can handle without experiencing performance degradation.
+higher concurrency levels are preferred for better scalability and capacity.
 
-7. Peak loading time
+7. Peak load handling  -> The maximum load or traffic the system can handle during peak usage periods without performance 
+degradation or failure.
+
+
