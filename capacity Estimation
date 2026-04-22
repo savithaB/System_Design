@@ -80,10 +80,13 @@ that need fixing.
 4. Historical Data Analysis -> Analyzing historical data usage to identify patterns, trends and peak usage periods. By extrapolating
 from past trends, designers can estimate future capacity requirments more accurately.
 
-5. Load testing ->
+5. Load testing -> Gradually increasing the workload on the system to measure its response and  performance at various 
+load levels.Load tests helps in identifying performance bottlenecks and determining the system capacity limits.
 
-6. Capacity planning tools ->
+6. Capacity planning tools -> Using specialized software tools designed for capacity planning and performance analysis.
+These tools often provide insights into resource utilization, performance metrics and scalability trends aiding in capacity
+estimation.
 
-6. 
+
 
 
