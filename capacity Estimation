@@ -62,4 +62,7 @@ higher concurrency levels are preferred for better scalability and capacity.
 7. Peak load handling  -> The maximum load or traffic the system can handle during peak usage periods without performance 
 degradation or failure.
 
+Methods and Techniques for Capacity Estimation
+==================================================
+
 
