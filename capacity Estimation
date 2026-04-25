@@ -87,6 +87,20 @@ load levels.Load tests helps in identifying performance bottlenecks and determin
 These tools often provide insights into resource utilization, performance metrics and scalability trends aiding in capacity
 estimation.
 
+Capacity estimation for different components:
+===============================================
+  Capacity estimation for different component in system design involves assessing the resources required by individual elements
+to ensure overall system performance.
 
+1. CPU(  Central processing unit) -> Ensure CPU capacity based on factors such as processing power, clock speed and number of cores.
+Caclculate CPU utilization under different workloads based on processing time to determine if addition processing capacity is required.
+
+2. Memory (RAM)  -> 
+
+3. Storage devices 
+
+4. Network bandwidth
+
+5. Database resources 
 
 
