@@ -98,10 +98,20 @@ Caclculate CPU utilization under different workloads based on processing time to
 2. Memory (RAM)  -> Assess memory requirements by analyzing system memory usage patterns. Estimate peak memory usage and ensure
 sufficient RAM to accomodate simultaneous tasks to prevent performance degradation due to swapping or paging.
 
-3. Storage devices 
+3. Storage devices -> Estimate storage capacity based on factors like growth rates, aniticipated file size and storage types
+(SSD, HDD). Consider factors like redundancy, data duplication and backup requirements when estimating storage capactity.
 
-4. Network bandwidth
+4. Network bandwidth -> Evaluate network bandwith requirments by analyzing expected data transfer rates, netwrk traffic patterns
+and communication protocols. Consider factors like Peak traffic usage, network latency and data compression in capacity estimation.
 
-5. Database resources 
+5. Database resources -> Ensure database performance requirements based on factors like data volumes, transaction rates and
+ query complexity. Analyze Database perfromance metrics like concurrency, throughput and response time to determine scaling or
+optmization is necessary.
+
+Case Studies and examples:
+==============================
+
+
+
 
 
