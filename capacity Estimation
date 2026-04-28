@@ -113,6 +113,11 @@ Case Studies and examples:
 
 Lets you are building an online store and need to estimate the capacity for a black friday sales. 
 
+Lets estimate 2,00,000 DAU and each user makes 8 requests per visit leading to a total of 16,00,000.
+
+QPS : 16,00,000/86400 = 18.52 
+Storage requirements: 
+
 
 
 
