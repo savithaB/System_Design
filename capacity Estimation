@@ -116,8 +116,20 @@ Lets you are building an online store and need to estimate the capacity for a bl
 Lets estimate 2,00,000 DAU and each user makes 8 requests per visit leading to a total of 16,00,000.
 
 QPS : 16,00,000/86400 = 18.52 
-Storage requirements: 
 
+Storage requirements: If each user generates 5MB of data, the total daily limit will be 2,00,000 * 5 = 10,00,000MB = 1000GB
+(1 GB ~= 1024 ~= 1000MB)
+
+Concurrent users : 25% of DAU will be active all the time, so (25/100)*(2,00,000) = 50,000 concurrent users.
+
+Conduct Load Testing : Use Apache Jmeter to simulte 50,000 users and monitor the system response time and error rates.
+
+Perform Stress Testing : Test the system with 2,50,000 users to identify potential bottlenecks.
+
+Capacity monitoring : Based on the test results, scale the infrastructure by adding more servers or optimizing resources
+like caching.
+
+Post deployment activity : Once live, monitor the key metrics like QPS, DAU and error rates using tools like grafana.
 
 
 
