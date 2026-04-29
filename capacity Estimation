@@ -131,6 +131,34 @@ like caching.
 
 Post deployment activity : Once live, monitor the key metrics like QPS, DAU and error rates using tools like grafana.
 
+Cloud infrastructure Capacity planning:
+=========================================
+
+Scenerio : A company migrates its on-prem infrastructure to cloud and need to estimating capacity requirements for various cloud
+resources.
+
+Capacity requirements : Based on the historical data usage to identify resource utilization patterns and predicts future growth trends.
+
+Example metrics : They estimate that their cloud environment requires 100 virtual machines, 10TB of storage and
+1Gbps of network bandwidth to support anticipated loads.
+
+Optimization Strategy :  The company implements autoscaling policies to dynamically adjust resource allocation based on
+demand fluctuation, optimizing cost and performance.
+
+Outcome:  By accurately estimating capacity requirements and implementing efficient resource management strategies, the
+company achieves cost effective scalability and high system availability in the cloud.
+
+Challenges and considerations:
+
+Dynamic workload:
+
+Uncertain Growth pattern:
+
+hardware limitations:
+
+Software complexity:
+
+User behaviour Variability:
 
 
 
