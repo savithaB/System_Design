@@ -159,11 +159,14 @@ unexpected events. Predicting accurate capacity requirements in such dynamic env
 Uncertain Growth pattern: Forecasting future growth rates in terms of user behaviour, data volume or transactional rates is
 inherently uncertain.Capacity palnners must account for various growth rates and plan for scalability accordingly.
 
-hardware limitations:
+hardware limitations: Physical hardware constraints such as CPU capacity, memory limits or storage capabilities impose
+on system scalability. Understanding these limitations and planning for hardware upgrades or replacements is crucial.
 
-Software complexity:
+Software complexity: Modern software systems are highly complex, with numerous interconnected components and dependencies. Estimating
+the capacity requirements and predicting their interactions accurately can be daunting. 
 
-User behaviour Variability:
+User behaviour Variability: User behaviour pattern such as peak times, browsing habits and transaction volumes can vary significantly
+over time. Capacity planners must analyze historical data and account for these variations in their estimations.
 
 
 
