@@ -150,9 +150,14 @@ company achieves cost effective scalability and high system availability in the 
 
 Challenges and considerations:
 
-Dynamic workload:
+Capacity estimation in system design comes with several challenges and considerations that need to be addressed to ensure
+accurate predictions and optimal performance.
 
-Uncertain Growth pattern:
+Dynamic workload: System often comes with fluctuating workloads due to factors like seasonal trends, marketing campaigns or
+unexpected events. Predicting accurate capacity requirements in such dynamic environments can be challenging.
+
+Uncertain Growth pattern: Forecasting future growth rates in terms of user behaviour, data volume or transactional rates is
+inherently uncertain.Capacity palnners must account for various growth rates and plan for scalability accordingly.
 
 hardware limitations:
 
