@@ -168,5 +168,38 @@ the capacity requirements and predicting their interactions accurately can be da
 User behaviour Variability: User behaviour pattern such as peak times, browsing habits and transaction volumes can vary significantly
 over time. Capacity planners must analyze historical data and account for these variations in their estimations.
 
+Best practices for capacity estimation:
+======================================
 
+-> Start Early -> Begin capacity estimation during the initial stages of system design to identify potential bottlenecks and scalability
+challenges.
 
+-> Gather accurate data -> Collect and analyze accurate data on system usage, performance metrics and workload patterns to inform capacity 
+estimation.
+
+-> Consider workload variability -> Account for various workload patterns such as peak usage times, seasonal trends when estimating capacity
+requirements.
+
+-> Plan for Scalability -> Design systems with scalability in mind, utilizing techniques like horizontal and vertical scaling to 
+accomodate future growth.
+
+-> Regular review and update -> Review capacity estimates periodically and adjust them based on changin workload patterns, 
+technology advancements and business needs.
+
+Tools and resources used for capacity estimation:
+==================================================
+
+1. Load runner -> Load runner is a performance tetsing tool used to simulate real world user activity on your application. It creates virtual
+users mimic actual user accessing your app. It measures how your system works under different loads (light, normal or heavy traffic) 
+to identify potential bottlenecks like slow responses , server crashes or  resource overuse.
+
+2. Grafana -> Grafana is a data visualization and monitoring tool used to display real time performance metrics of your system. Connects to data 
+sources like databases, servers or monitoring tools. Shows performance metrics such as CPU usage, Memory usage, error rates or traffic load
+on interative dashboards and send alerts when specific threshold are reached.
+
+3. Load Testing tools -> Tools like Apache jmeter, load runner and gatling faclitate load testing to simulate real world usage scenerios 
+amd measure system performance.
+
+4. Monitoring platforms -> Monitoring tools such as promotheus, Nagios and datadog provide real time insights into system performance 
+metrics, resource utilization and capacity trends.
+ 
