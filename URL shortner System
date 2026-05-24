@@ -1,1 +1,50 @@
+URL Shortner System Design
+
+The need for efficient and concise URL manangement has become most important in todays digital market. URL shortening service help
+convert long complex URLs into short, easy to share links. This improves usuability especially on social media and messaging platforms.
+-> Short URLS are simple to share and reembers.
+-> Helps tracks clicks and manage links effectively.
+
+refer diagram in -> https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/
+
+Long to short URl
+start-> inputlongURL -> Hash Function -> short URL -> Exists in DB (yes) -> Save to DB -> End  ->  longURL+predefine data  (No)
+
+Short to Long URL
+
+Start -> Input short URL -> extract code part -> check code format -> if not 400 Error -> if yes code has cahce -> If yes return result
+-> if no looks in DB -> if no return 404 Error -> If yes update cache -> return result.
+
+1. System Requirements
+2. Capacity estimartion
+3. Low level design
+4. High level design
+5. Database design
+6. Load balancing and caching in URL shortner service
+
+1. System Requirements
+===========================
+These requirements define what the system should do and how well it should perform.
+
+Functional requirements
+===========================
+These describe the core features that the system must provide to users.
+1. Given a long URL, the service should generate shorter and unique alias for it.
+2. when the user hit a short link, the service should redirect to the original link.
+3. link will expire after a standard default time span.
+
+Non Functional requirements
+=================================
+These define the security , performance and reliability aspects of the system.
+1. The system should be highly available. This is really important to consider because if the service
+goes down, all URL redirection will start failing.
+2. URL redirection should happen in real time with minimum latency.
+3. shortened links should not be predictable.
+
+2. Capacity estimation
+=======================
+
+
+
+
 
