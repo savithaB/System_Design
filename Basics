@@ -1,3 +1,6 @@
+System Design:
+=================
+
 System design is the blueprint of a software system. defines system architecture, components, interfaces and data flows.
 focus on scalability, reliability, performance and maintainability. Converts business requirements into technical architecture.
 establishes clear boundaries between databases, users and services. balances functionalities with operational realities.
