@@ -33,6 +33,20 @@ Horizontal scaling and load balancing become standard.
 3. 2010 - 2015 => The cloud revolution
 
 AWS, Azure, GCP enabled on demand infrastruture scalability.
+Shift to virtualized & containerized deployments.
+NoSQL databases (Cassandra, MongoDB) gained popularity.
+
+4. 2015 - 2020 => Microservices and event driven architecture.
+
+Monoliths evolved into microservices for agility.
+CI/CD pipeleines streamlined software delivery.
+APi gateways, Service meshes, Event driven systems (Kafka, RabbitMQ).
+
+5. 2020 - Present => Real time, AI- driven , edge computing
+
+focus on low latency (streaming, AI driven recommendations)
+serveless computing, kubernetes and edge computing growth
+increased emphasis on security, complaince and observability.
 
 
 
