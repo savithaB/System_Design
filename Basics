@@ -14,3 +14,42 @@ Career growth -> Essential for becoming a senior engineer or architect.
 Real world problem solving -> helps in building actual systems not just clearing interviews.
 Trade-offs & decision making -> Balances scalability, cost, speed, and complexity.
 Future proofing ->  prevents bottlenecks and allows smooth evolution of software.
+
+Evolution of system design over 25 years
+============================================
+
+1. 1995 -2005 => Early monolithic web applications
+
+LAMP Stack (Linux, Apache , MySQL, PHP) dominated.
+stateless servers, single node databases, basic MVC architectures
+server side rendering, no real time features.
+
+2. 2005 - 2010 => Scaling challenges and distributed systems
+
+Social media, ecommerce drove demand for better performance.
+Intrductions caching(Redis, memcached),CDNs, database replication.
+Horizontal scaling and load balancing become standard.
+
+3. 2010 - 2015 => The cloud revolution
+
+AWS, Azure, GCP enabled on demand infrastruture scalability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
