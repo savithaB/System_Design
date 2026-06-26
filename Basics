@@ -6,6 +6,7 @@ focus on scalability, reliability, performance and maintainability. Converts bus
 establishes clear boundaries between databases, users and services. balances functionalities with operational realities.
 
 Why is system design important?
+===================================
 
 Scalability & reliability -> Ensures system handles millions of requests without failure.
 Architectural thinking -> goes beyond coding. Involves trade-off like SQL vs NOSQL, cap theorem.
