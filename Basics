@@ -5,4 +5,11 @@ System design is the blueprint of a software system. defines system architecture
 focus on scalability, reliability, performance and maintainability. Converts business requirements into technical architecture.
 establishes clear boundaries between databases, users and services. balances functionalities with operational realities.
 
+Why is system design important?
 
+Scalability & reliability -> Ensures system handles millions of requests without failure.
+Architectural thinking -> goes beyond coding. Involves trade-off like SQL vs NOSQL, cap theorem.
+Career growth -> Essential for becoming a senior engineer or architect.
+Real world problem solving -> helps in building actual systems not just clearing interviews.
+Trade-offs & decision making -> Balances scalability, cost, speed, and complexity.
+Future proofing ->  prevents bottlenecks and allows smooth evolution of software.
