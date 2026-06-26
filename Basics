@@ -48,6 +48,20 @@ focus on low latency (streaming, AI driven recommendations)
 serveless computing, kubernetes and edge computing growth
 increased emphasis on security, complaince and observability.
 
+Course Structured:
+
+1. Introduction  -> Overview of system design and real world importance.
+2. System design fundamentals => Core concepts, architectural patterns and trade-offs.
+3. Scalability => Handling growth traffic, load balancing, database sharding and caching
+4. Storage => SQL vs NOSQL , distributed database and data partitioning strategies.
+5. Performance => optimizing latency, throughput and efficiency
+6. Reliability => Ensuring fault tolerance, disaster recovery and high availability
+7. Security => Authentication , authorization and data protection best practices.
+8. Putting it all together => Combining principles to design real world problems
+9. Approach for system design => Frameworks and methodologies for structurizing solutions.
+10. Case studies => Deep dive into real world architecture of companies like netflix, uber and whatsapp
+11. Interview tips -> Strategies to excel in system design interviews.
+
 
 
 
