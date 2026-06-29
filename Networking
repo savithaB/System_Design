@@ -1,1 +1,9 @@
+Why networking matters in system design?
 
+1. Every system relies on data exchange between components.
+2. Networking enables scalability. reliability, and performance.
+3. Key areas where networking plays a crucial role:
+   -> Communication - ensuring smooth data transfer between clients , severs and databases.
+   -> load balancing - distribute traffic efficiently to prevent overload on a single server.
+   -> Security - protecting data from unauthorized access and cyber threats.
+   -> Efficiency - Optimizing network performance to reduce latency and improve user experience.
