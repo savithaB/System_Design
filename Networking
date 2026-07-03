@@ -7,3 +7,10 @@ Why networking matters in system design?
    -> load balancing - distribute traffic efficiently to prevent overload on a single server.
    -> Security - protecting data from unauthorized access and cyber threats.
    -> Efficiency - Optimizing network performance to reduce latency and improve user experience.
+
+How networking impacts large scale systems?
+
+-> Helps handle millions of requests concurrently.
+-> enables fast and efficient data exchange.
+-> Reduces latency and improves system resilience.
+-> essential for cloud computing and distributed systems.
