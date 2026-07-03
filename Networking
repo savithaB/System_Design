@@ -14,3 +14,14 @@ How networking impacts large scale systems?
 -> enables fast and efficient data exchange.
 -> Reduces latency and improves system resilience.
 -> essential for cloud computing and distributed systems.
+
+Key networkign concepts in System design:
+
+1. Understanding IP addresses.
+2. How DNS works.
+3. Client -server model explained.
+4. Forward proxy vs reverse proxy.
+5. Introduction to load balancing.
+6. What is an API gateway.
+7. Content Delivery Network in System design.
+
