@@ -1,5 +1,7 @@
 Why networking matters in system design?
 
+Networking is the founation of system design.
+
 1. Every system relies on data exchange between components.
 2. Networking enables scalability. reliability, and performance.
 3. Key areas where networking plays a crucial role:
