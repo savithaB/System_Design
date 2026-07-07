@@ -1,1 +1,4 @@
+Introduction to IP Address:
 
+1. There has to be way to identify where the request should go. IP address is essentially identity layer of networking.Without 
+an unique identifier packets would have no destination.
