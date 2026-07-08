@@ -2,3 +2,40 @@ Introduction to IP Address:
 
 1. There has to be way to identify where the request should go. IP address is essentially identity layer of networking.
 Without an unique identifier packets would have no destination.
+
+2. Some are designed for communication inside private network while others exposed services to the public internet. This distinction
+becomes crucial.
+
+3.Internet has evolved from IPV4 to IPV6. As billions of devices came online, the original address space become inefficient, forcing
+the industry to rethink how global addressing works. 
+
+4. When you design distributed system, IP address stop being a networking detail and become foundational building block.Every request,
+service call and every connection ultimately depends on systems being able to find each other.
+
+
+IPV4
+-> IPV4 (Internet protocol version 4) is the most widely used addressing system. 32 bit address format. total address
+available = 4.3 billion.  Uses : Tradiotional networking, web servers, and most current internet devices. challenges:
+limited IPs, fragmentation and security concerns.
+
+-> when users access your application, networking infrastructure uses IP addresses to determine where traffic should go 
+and how should resposne return.
+
+->internet eventually outgrew the assumptions on which IPv4 was built.
+
+Ipv6
+
+-> Ipv6 (Internet protocol version 6) next generation IP standard.
+
+->128 - bit address format.Total address available = 340 undecillion (virtually unlimited)
+
+-> Uses : IoT, mobile networks and future scalability.key benefits : large address space, better security,
+improved routing efficiency. ipv6 is long term scalability.
+
+Feature                      Ipv4                               Ipv6
+Address size                  32 bit                            128 bit
+Address format                decimal                           hexadecimal
+Address space                 4.3 billion address               unlimited
+Secuity                      relies on additional protocols     built in security
+performance                  limited due to NAT & fragmentation   more efficient routing and handling
+Adoption                     still widely used                   slowly being adopted
