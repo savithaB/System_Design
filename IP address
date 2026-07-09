@@ -40,16 +40,44 @@ Secuity                      relies on additional protocols     built in securit
 performance                  limited due to NAT & fragmentation   more efficient routing and handling
 Adoption                     still widely used                   slowly being adopted
 
-Most production systems are deliberately designed so that the majority of the infrastructure remains hidden behind
+ -> Most production systems are deliberately designed so that the majority of the infrastructure remains hidden behind
 the private networks. 
 
 Public Ips
-Assigned by Internet service provider (ISPs). Used to communicate over the internet. unique worldwide.
+-> Assigned by Internet service provider (ISPs). Used to communicate over the internet. unique worldwide.
 
 private Ips
-Used within local networks. cannot be accessed directly from the internet.
+ -> Used within local networks. cannot be accessed directly from the internet.
 databases, caches, internal API's and backend services can communicate freely using private addresses. The public entry points
 are load balancers, API gateways and reverse proxies.
 
-A user reaches the public endpoint, but the request often travel through multiple layers of private infrastructure.
+-> A user reaches the public endpoint, but the request often travel through multiple layers of private infrastructure.
 before reaching the service that actually processes the request.
+-> public Ips provide reachability while private Ips provide isolation. Modern architecture rely on both to access scalaibility,
+accessibility and security.
+
+Why do we need private Ips?
+-> Conserves public Ip address.
+-> Enhances security (private Ips are not routable over the internet).
+-> Enables Network Address Translation (NAT) to allow multiple devices to share a single public Ip.
+-> Common in corporate networks, data centers and cloud environments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
