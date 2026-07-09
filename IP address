@@ -39,3 +39,6 @@ Address space                 4.3 billion address               unlimited
 Secuity                      relies on additional protocols     built in security
 performance                  limited due to NAT & fragmentation   more efficient routing and handling
 Adoption                     still widely used                   slowly being adopted
+
+Most production systems are deliberately designed so that the majority of the infrastructure remains hidden from 
+the 
